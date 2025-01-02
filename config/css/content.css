@@ -6,9 +6,11 @@ body { margin: 0; }
   
 .columnsContainer, footer, header { position: relative; margin: .5em; }
   
-.leftColumn, .rightColumn, footer, header {  border: 1px solid  #ccc; padding: 1.25em; }
+.leftColumn, .rightColumn, footer, header {  border: 1px solid  #ccc; }
   
-.leftColumn { margin-bottom: .5em; }
+.leftColumn { padding: 90px }
+
+.leftColumn-c { padding: 10px; border: 1px solid  #ccc; }
   
 .nav {
     list-style: none;
